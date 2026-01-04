@@ -26,15 +26,15 @@ It creates:
 
 * Initialize Terraform:
 
-' terraform init '
+` terraform init `
 
 
 * Review the execution plan:
 
-'terraform plan -var-file=terraform.tfvars'
+`terraform plan -var-file=terraform.tfvars`
 
 
 * Apply the configuration:
 
-'terraform apply -var-file=np.tfvars (for non-prod)'
-'terraform apply -var-file=np.tfvars (for prod)'
+`terraform apply -var-file=np.tfvars (for non-prod)`
+`terraform apply -var-file=np.tfvars (for prod)`
