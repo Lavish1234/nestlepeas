@@ -31,7 +31,8 @@ It creates:
 
 * Review the execution plan:
 
-`terraform plan -var-file=terraform.tfvars`
+`terraform plan -var-file=np.tfvars (for non-prod)`
+`terraform plan -var-file=np.tfvars (for prod)`
 
 
 * Apply the configuration:
