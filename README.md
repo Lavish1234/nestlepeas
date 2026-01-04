@@ -42,3 +42,5 @@ It creates:
 
 ## How you would structure multiple environments
 
+I generally structure multiple environments by using a single Terraform codebase with separate tfvars files for each environment. This keeps infrastructure logic consistent while allowing environment specific configuration. It is simple, safe and easy to scale. Why I am not using terraform workspace because it creates seperate state not the configs and if not switch the workspace carefully it can lead to accidental deployment.
+
