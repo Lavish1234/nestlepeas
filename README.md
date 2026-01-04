@@ -21,3 +21,20 @@ It creates:
 * Region is fixed to Germany West Central as per requirement.
 
 * Global Terraform modules are assumed to exist and are mocked locally.
+
+## How to Run the Code
+
+* Initialize Terraform:
+
+'terraform init'
+
+
+* Review the execution plan:
+
+'terraform plan -var-file=terraform.tfvars'
+
+
+* Apply the configuration:
+
+'terraform apply -var-file=np.tfvars (for non-prod)'
+'terraform apply -var-file=np.tfvars (for prod)'
