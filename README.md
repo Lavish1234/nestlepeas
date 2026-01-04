@@ -39,3 +39,6 @@ It creates:
 
 `terraform apply -var-file=np.tfvars (for non-prod)`
 `terraform apply -var-file=np.tfvars (for prod)`
+
+## How you would structure multiple environments
+
