@@ -1,5 +1,5 @@
 # nestlepeas
-##Terraform Application named “peas”
+## Terraform Application named “peas”
 
 This Terraform assignmnet provisions basic Azure infrastructure for the peas application.
 It creates:
