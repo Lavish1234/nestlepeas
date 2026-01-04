@@ -26,7 +26,7 @@ It creates:
 
 * Initialize Terraform:
 
-'terraform init'
+' terraform init '
 
 
 * Review the execution plan:
